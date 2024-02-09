@@ -1,0 +1,45 @@
+html {
+  text-align: left;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 125px;
+  margin-right: 125px;
+  background-color: rgb(59, 57, 185);
+  margin-bottom: 50px;
+}
+.inputs {
+  border: 4px dashed black;
+  border-radius: 20px;
+  font-size: larger;
+  input-security: auto;
+}
+
+#btn {
+  width: 250px;
+  height: 100px;
+  background: rgb(0, 157, 248);
+  color: white;
+  border-radius: 25px;
+  transition: background 3s, width 3s;
+}
+
+#btn:hover {
+  background: rgba(201, 64, 10, 0.445);
+  cursor: pointer;
+  width: 1320px;
+  transition: background 3s, width 3s;
+}
+
+#endgrade {
+  font-family: serif;
+  font-size: larger;
+}
+
+hr {
+  border: 4px dotted rgb(1, 0, 2);
+}
+
+.final {
+  text-align: right;
+  padding-bottom: 10px;
+}
